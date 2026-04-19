@@ -8,8 +8,8 @@ from datetime import datetime
 # ==========================================
 # НАСТРОЙКИ
 # ==========================================
-BOT_TOKEN      = os.environ.get('BOT_TOKEN', '7791274410:AAFnX4h0LGJ2pgbEpqEs6hzAsgznmQAJELw')
-CHAT_ID        = os.environ.get('CHAT_ID', '6306949094')
+BOT_TOKEN      = os.environ.get('BOT_TOKEN')
+CHAT_ID        = os.environ.get('CHAT_ID')
 SPREADSHEET_ID = '1tHn2XnJVUYOK-PZFBRIrGvLWFun7gyh0'
 SHEET_GID      = '285132150'
 CHECK_INTERVAL = 300  # проверка каждые 5 минут
